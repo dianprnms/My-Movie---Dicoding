@@ -40,16 +40,17 @@ android {
 
     }
 
-//    lint {
-//        //Penyaringan spesifik
-//        disable+=("TypographyQuotes")
+    lint {
+        //Penyaringan spesifik
+        disable+=("UnusedIdsMissingTranslationNewApi")
+        disable+=("TypographyQuotes")
 //        enable+="UnusedIds" + "MissingTranslation" + "NewApi"
-//        //Penyaringan lint default
-//        checkAllWarnings = true
-//        abortOnError = true
-//        //Penyaringan kustom
-//        baseline = file("lint-baseline.xml")
-//    }
+        //Penyaringan lint default
+        checkAllWarnings = true
+        abortOnError = true
+        //Penyaringan kustom
+        baseline = file("lint-baseline.xml")
+    }
 }
 
 dependencies {
