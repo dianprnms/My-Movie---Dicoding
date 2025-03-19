@@ -125,6 +125,7 @@ dependencies {
 
     implementation("androidx.webkit:webkit:1.10.0")
 
-
+    //Memory Leak
+    debugImplementation("com.squareup.leakcanary:leakcanary-android:2.10")
 
 }

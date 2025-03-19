@@ -84,6 +84,7 @@ class GenreFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
+        binding.rvGenre.adapter = null
         _binding = null
     }
 }

@@ -15,7 +15,6 @@ import com.example.mymovie.databinding.FragmentMovieBinding
 import com.example.mymovie.presentation.viewmodel.NowPlayingViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
@@ -33,10 +32,11 @@ class MovieFragmentScreen : Fragment() {
         return binding.root
     }
 
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        nowPlayingAdapter = NowPlayingAdapter(emptyList()) // Initialize with an empty list
+        nowPlayingAdapter = NowPlayingAdapter(emptyList())
 
         val layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
         binding.rvMovie.layoutManager = layoutManager
@@ -80,6 +80,7 @@ class MovieFragmentScreen : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
+        binding.rvMovie.adapter = null
         _binding = null
     }
 }

@@ -5,4 +5,6 @@
     <string name="title_favorite">Favorite</string>
     <string name="video_is_empty">Oops tidak ada video!!</string>
     <string name="description">Deskripsi</string>
+    <string name="power_connected">Power connected!</string>
+    <string name="power_disconnected">Power disconnected!</string>
 </resources>
