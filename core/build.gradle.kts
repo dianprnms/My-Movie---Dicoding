@@ -127,4 +127,8 @@ dependencies {
 
     // OkHttp logging interceptor (for debugging network requests)
     implementation("com.squareup.okhttp3:logging-interceptor:4.10.0")
+
+    // SqlCipher
+    implementation(libs.android.database.sqlcipher)
+    implementation(libs.androidx.sqlite.ktx)
 }
