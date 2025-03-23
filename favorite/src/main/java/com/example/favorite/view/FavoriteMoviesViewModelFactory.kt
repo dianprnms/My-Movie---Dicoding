@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.core.domain.usecase.MovieUseCase
 
+@Suppress("UNCHECKED_CAST")
 class FavoriteMoviesViewModelFactory(
     private val movieUseCase: MovieUseCase
 ) : ViewModelProvider.Factory {
