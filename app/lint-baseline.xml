@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint Iguana | 2023.2.1 Patch 1">
+
+    <issue
+        id="AndroidGradlePluginVersion"
+        message="A newer version of com.android.tools.build:gradle than 8.1.2 is available: 8.1.4">
+        <location
+            file="build.gradle.kts"
+            line="9"/>
+    </issue>
+
+    <issue
+        id="AndroidGradlePluginVersion"
+        message="A newer version of com.android.application than 8.4.0 is available: 8.4.2">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/gradle/libs.versions.toml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="AndroidGradlePluginVersion"
+        message="A newer version of com.android.dynamic-feature than 8.4.0 is available: 8.4.2">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/gradle/libs.versions.toml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="AndroidGradlePluginVersion"
+        message="A newer version of com.android.library than 8.4.0 is available: 8.4.2">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/gradle/libs.versions.toml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.navigation:navigation-safe-args-gradle-plugin than 2.7.6 is available: 2.8.9">
+        <location
+            file="build.gradle.kts"
+            line="8"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.gms:google-services than 4.4.0 is available: 4.4.2">
+        <location
+            file="build.gradle.kts"
+            line="11"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.15.0">
+        <location
+            file="build.gradle.kts"
+            line="64"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0">
+        <location
+            file="build.gradle.kts"
+            line="65"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0">
+        <location
+            file="build.gradle.kts"
+            line="66"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <location
+            file="build.gradle.kts"
+            line="67"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.firebase:firebase-auth than 22.3.1 is available: 23.2.0">
+        <location
+            file="build.gradle.kts"
+            line="69"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.gms:play-services-auth than 20.7.0 is available: 21.3.0">
+        <location
+            file="build.gradle.kts"
+            line="70"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1">
+        <location
+            file="build.gradle.kts"
+            line="72"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1">
+        <location
+            file="build.gradle.kts"
+            line="73"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0">
+        <location
+            file="build.gradle.kts"
+            line="82"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.navigation:navigation-fragment-ktx than 2.7.6 is available: 2.8.9">
+        <location
+            file="build.gradle.kts"
+            line="85"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.navigation:navigation-ui-ktx than 2.7.6 is available: 2.8.9">
+        <location
+            file="build.gradle.kts"
+            line="86"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.datastore:datastore-preferences than 1.0.0 is available: 1.1.3">
+        <location
+            file="build.gradle.kts"
+            line="104"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.7.0 is available: 2.8.7">
+        <location
+            file="build.gradle.kts"
+            line="110"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.7.0 is available: 2.8.7">
+        <location
+            file="build.gradle.kts"
+            line="111"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.7.0 is available: 1.7.3">
+        <location
+            file="build.gradle.kts"
+            line="111"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.activity:activity-ktx than 1.8.2 is available: 1.10.1">
+        <location
+            file="build.gradle.kts"
+            line="112"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-rxjava3 than 2.5.0 is available: 2.6.1">
+        <location
+            file="build.gradle.kts"
+            line="114"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.7.0 is available: 1.7.3">
+        <location
+            file="build.gradle.kts"
+            line="123"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-rxjava3 than 2.5.0 is available: 2.6.1">
+        <location
+            file="build.gradle.kts"
+            line="126"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.webkit:webkit than 1.10.0 is available: 1.13.0">
+        <location
+            file="build.gradle.kts"
+            line="126"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.15.0">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/gradle/libs.versions.toml"
+            line="4"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.activity:activity than 1.9.2 is available: 1.10.1">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/gradle/libs.versions.toml"
+            line="10"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/gradle/libs.versions.toml"
+            line="11"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/gradle/libs.versions.toml"
+            line="14"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.navigation:navigation-fragment-ktx than 2.7.6 is available: 2.8.9">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/gradle/libs.versions.toml"
+            line="15"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.navigation:navigation-ui-ktx than 2.7.6 is available: 2.8.9">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/gradle/libs.versions.toml"
+            line="15"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.datastore:datastore-preferences than 1.0.0 is available: 1.1.3">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/gradle/libs.versions.toml"
+            line="22"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.7.0 is available: 2.8.7">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/gradle/libs.versions.toml"
+            line="24"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.7.0 is available: 2.8.7">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/gradle/libs.versions.toml"
+            line="24"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.webkit:webkit than 1.10.0 is available: 1.13.0">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/gradle/libs.versions.toml"
+            line="29"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-reactivestreams-ktx than 2.8.4 is available: 2.8.7">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/gradle/libs.versions.toml"
+            line="33"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <location
+            file="src/main/res/layout/fragment_detail.xml"
+            line="43"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <location
+            file="src/main/res/layout/fragment_detail.xml"
+            line="81"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <location
+            file="src/main/res/layout/fragment_detail.xml"
+            line="91"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <location
+            file="src/main/res/layout/fragment_detail.xml"
+            line="117"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <location
+            file="src/main/res/layout/fragment_genre.xml"
+            line="15"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <location
+            file="src/main/res/layout/item_favorite_movie.xml"
+            line="35"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <location
+            file="src/main/res/layout/item_favorite_movie.xml"
+            line="46"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <location
+            file="src/main/res/layout/item_genre.xml"
+            line="29"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <location
+            file="src/main/res/layout/item_movie.xml"
+            line="35"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <location
+            file="src/main/res/layout/item_movie.xml"
+            line="46"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <location
+            file="src/main/res/layout/item_reviews.xml"
+            line="31"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <location
+            file="src/main/res/layout/item_reviews.xml"
+            line="41"/>
+    </issue>
+
+    <issue
+        id="NotifyDataSetChanged"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="src/main/java/com/example/core/ui/FavoriteMoviesAdapter.kt"
+            line="45"/>
+    </issue>
+
+    <issue
+        id="NotifyDataSetChanged"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="src/main/java/com/example/core/ui/ReviewsAdapter.kt"
+            line="26"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="18"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.black` appears to be unused">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/app/src/main/res/values/colors.xml"
+            line="3"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.white` appears to be unused">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/app/src/main/res/values/colors.xml"
+            line="4"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.hello_blank_fragment` appears to be unused">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/app/src/main/res/values/strings.xml"
+            line="3"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.title_chat` appears to be unused">
+        <location
+            file="$HOME/AndroidStudioProjects/My-Movie---Dicoding/app/src/main/res/values/strings.xml"
+            line="4"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle.kts"
+            line="8"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle.kts"
+            line="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle.kts"
+            line="10"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle.kts"
+            line="11"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (androidx.core:core-ktx is already available as `androidx-core-ktx`, but using version 1.13.1 instead)">
+        <location
+            file="build.gradle.kts"
+            line="64"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (androidx.appcompat:appcompat is already available as `androidx-appcompat`, but using version 1.7.0 instead)">
+        <location
+            file="build.gradle.kts"
+            line="65"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (com.google.android.material:material is already available as `material`, but using version 1.12.0 instead)">
+        <location
+            file="build.gradle.kts"
+            line="66"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.constraintlayout`) instead">
+        <location
+            file="build.gradle.kts"
+            line="67"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle.kts"
+            line="68"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle.kts"
+            line="69"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle.kts"
+            line="70"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.junit`) instead">
+        <location
+            file="build.gradle.kts"
+            line="71"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (androidx.test.ext:junit is already available as `androidx-junit`, but using version 1.2.1 instead)">
+        <location
+            file="build.gradle.kts"
+            line="72"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.rxjava`) instead">
+        <location
+            file="build.gradle.kts"
+            line="73"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (androidx.test.espresso:espresso-core is already available as `androidx-espresso-core`, but using version 3.6.1 instead)">
+        <location
+            file="build.gradle.kts"
+            line="73"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.rxandroid`) instead">
+        <location
+            file="build.gradle.kts"
+            line="74"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.adapter.rxjava3`) instead">
+        <location
+            file="build.gradle.kts"
+            line="75"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.room.rxjava3`) instead">
+        <location
+            file="build.gradle.kts"
+            line="76"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.room`) instead">
+        <location
+            file="build.gradle.kts"
+            line="76"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.room.ktx`) instead">
+        <location
+            file="build.gradle.kts"
+            line="77"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.room.compiler`) instead">
+        <location
+            file="build.gradle.kts"
+            line="78"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.cardview`) instead">
+        <location
+            file="build.gradle.kts"
+            line="81"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.recyclerview`) instead">
+        <location
+            file="build.gradle.kts"
+            line="82"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.navigation`) instead">
+        <location
+            file="build.gradle.kts"
+            line="85"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.rxjava`) instead">
+        <location
+            file="build.gradle.kts"
+            line="85"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.navigation.ui`) instead">
+        <location
+            file="build.gradle.kts"
+            line="86"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.rxandroid`) instead">
+        <location
+            file="build.gradle.kts"
+            line="86"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.adapter.rxjava3`) instead">
+        <location
+            file="build.gradle.kts"
+            line="87"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.room.rxjava3`) instead">
+        <location
+            file="build.gradle.kts"
+            line="88"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.com.squareup.retrofit2`) instead">
+        <location
+            file="build.gradle.kts"
+            line="89"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.com.squareup.retrofit2.converter`) instead">
+        <location
+            file="build.gradle.kts"
+            line="90"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.com.squareup.okhttp3`) instead">
+        <location
+            file="build.gradle.kts"
+            line="91"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.com.github.chuckerteam.chucker`) instead">
+        <location
+            file="build.gradle.kts"
+            line="94"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.com.github.chuckerteam.chucker.release`) instead">
+        <location
+            file="build.gradle.kts"
+            line="95"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.com.facebook.shimmer`) instead">
+        <location
+            file="build.gradle.kts"
+            line="98"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.com.airbnb.android`) instead">
+        <location
+            file="build.gradle.kts"
+            line="101"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.datastore`) instead">
+        <location
+            file="build.gradle.kts"
+            line="104"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.com.google.dagger.compiler`) instead">
+        <location
+            file="build.gradle.kts"
+            line="107"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.de.hdodenhof`) instead">
+        <location
+            file="build.gradle.kts"
+            line="107"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.lifecycle.livedata`) instead">
+        <location
+            file="build.gradle.kts"
+            line="110"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle.kts"
+            line="110"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.lifecycle.viewmodel`) instead">
+        <location
+            file="build.gradle.kts"
+            line="111"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (org.jetbrains.kotlinx:kotlinx-coroutines-android is already available as `org-jetbrains-kotlinx`, but using version 1.7.3 instead)">
+        <location
+            file="build.gradle.kts"
+            line="111"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle.kts"
+            line="112"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (androidx.room:room-rxjava3 is already available as `androidx-room-rxjava3`, but using version 2.6.1 instead)">
+        <location
+            file="build.gradle.kts"
+            line="114"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.com.github.bumptech.glide`) instead">
+        <location
+            file="build.gradle.kts"
+            line="115"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.com.github.bumptech.glide.compiler`) instead">
+        <location
+            file="build.gradle.kts"
+            line="116"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (com.squareup.okhttp3:logging-interceptor is already available as `com-squareup-okhttp3`, but using version 5.0.0-alpha.6 instead)">
+        <location
+            file="build.gradle.kts"
+            line="117"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.com.google.dagger`) instead">
+        <location
+            file="build.gradle.kts"
+            line="119"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.com.google.dagger.compiler`) instead">
+        <location
+            file="build.gradle.kts"
+            line="120"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle.kts"
+            line="122"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.org.jetbrains.kotlinx`) instead">
+        <location
+            file="build.gradle.kts"
+            line="123"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (org.jetbrains.kotlinx:kotlinx-coroutines-android is already available as `org-jetbrains-kotlinx`, but using version 1.7.3 instead)">
+        <location
+            file="build.gradle.kts"
+            line="123"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle.kts"
+            line="124"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.webkit`) instead">
+        <location
+            file="build.gradle.kts"
+            line="126"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (androidx.room:room-rxjava3 is already available as `androidx-room-rxjava3`, but using version 2.6.1 instead)">
+        <location
+            file="build.gradle.kts"
+            line="126"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle.kts"
+            line="129"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (com.squareup.okhttp3:logging-interceptor is already available as `com-squareup-okhttp3`, but using version 5.0.0-alpha.6 instead)">
+        <location
+            file="build.gradle.kts"
+            line="129"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/fragment_detail.xml"
+            line="52"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/fragment_detail.xml"
+            line="64"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/fragment_genre.xml"
+            line="20"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/item_favorite_movie.xml"
+            line="23"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src/main/res/layout/item_movie.xml"
+            line="23"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Judul&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/fragment_detail.xml"
+            line="41"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Reviews&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/fragment_detail.xml"
+            line="89"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Oops tidak ada review nih!&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/fragment_detail.xml"
+            line="115"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Favorite&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/fragment_favorite_movies.xml"
+            line="14"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;No favorite movies&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/fragment_favorite_movies.xml"
+            line="23"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Genre&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/fragment_genre.xml"
+            line="14"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Judul Film&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/item_favorite_movie.xml"
+            line="34"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Tanggal Rilis&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/item_favorite_movie.xml"
+            line="45"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Genre&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/item_genre.xml"
+            line="28"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Judul Film&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/item_movie.xml"
+            line="34"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Tanggal Rilis&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/item_movie.xml"
+            line="45"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;nama author&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/item_reviews.xml"
+            line="30"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;review&quot;, should use `@string` resource">
+        <location
+            file="src/main/res/layout/item_reviews.xml"
+            line="40"/>
+    </issue>
+
+</issues>

@@ -27,8 +27,7 @@ import kotlinx.coroutines.launch
 @AndroidEntryPoint
 class DetailFragment : Fragment() {
 
-    private var _binding: FragmentDetailBinding? = null
-    private val binding get() = _binding!!
+    lateinit private var binding: FragmentDetailBinding
     private val detailViewModel: DetailViewModel by viewModels()
     private val reviewsViewModel: ReviewsViewModel by viewModels()
     private val videoViewModel: VideoViewModel by viewModels()
@@ -40,7 +39,7 @@ class DetailFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentDetailBinding.inflate(inflater, container, false)
+        binding = FragmentDetailBinding.inflate(inflater)
         return binding.root
     }
 
@@ -168,6 +167,6 @@ class DetailFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
-        _binding = null
+        binding
     }
 }
