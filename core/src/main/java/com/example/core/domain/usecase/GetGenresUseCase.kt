@@ -16,6 +16,7 @@ class GetGenresUseCase @Inject constructor(
         return genreRepository.getGenres()
             .flowOn(Dispatchers.IO)
             .catch { e ->
+                e.printStackTrace()
                 emit(emptyList())
             }
     }
